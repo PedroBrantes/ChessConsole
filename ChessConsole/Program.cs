@@ -7,11 +7,10 @@ namespace ChessConsole
     {
         static void Main(string[] args)
         {
-            Position P;
+            ChessTable table = new ChessTable(8, 8);
 
-            P = new Position(2, 4);
+            Screen.PrintScreen(table);
 
-            Console.WriteLine("Position: " + P);
             Console.ReadLine();
         }
     }

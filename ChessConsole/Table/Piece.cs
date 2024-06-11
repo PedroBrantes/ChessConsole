@@ -7,9 +7,9 @@
 
         public int quantityMoves { get; protected set; }
 
-        public Table table { get; protected set; }
+        public ChessTable table { get; protected set; }
 
-        public Piece(Position position, Table table, Color color)
+        public Piece(Position position, ChessTable table, Color color)
         {
             this.position = position;
             this.table = table;
